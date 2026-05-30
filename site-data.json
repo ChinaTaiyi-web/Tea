@@ -1,0 +1,84 @@
+{
+  "culture": {
+    "title": "跨洲灵感 共生之茶",
+    "desc": "太一将安徽黄山的云雾茶山与肯尼亚裂谷的炽热阳光融汇，创造出「朱槿红茶」「草原蜜韵」等跨界风味。致敬祖先智慧，拥抱非洲节奏，每一杯都是文化对话。",
+    "img": "https://images.pexels.com/photos/4109746/pexels-photo-4109746.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "moreContent": "太一茶业的文化使命：打破地域边界，用茶叶搭建中非友谊之桥。我们在肯尼亚开设茶文化工作坊，邀请非洲艺术家设计茶器，并每年举办‘中非茶席节’。肯尼亚的激情节奏与中式茶道完美相融，创造出全新的‘鼓韵茶礼’。未来我们将深入西非，让茶香遍及撒哈拉以南。"
+  },
+  "craft": {
+    "title": "古法窨制 · 大地风味",
+    "desc": "延续中国传统花茶窨制工艺，加入非洲香料植物如醉椒叶、猴面包树果粉，创造出极具层次感的「草原晨露」系列。非遗传承人驻场，每一片茶叶都经过三十六道细致工序。",
+    "img": "https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "moreContent": "每一片太一茶叶都遵循‘三窨三晒’古法，同时引入非洲特有植物进行低温发酵。我们的匠人团队曾深入埃塞俄比亚学习当地咖啡处理法，反哺茶叶烘焙技术。现在「草原晨露」系列已成为东非高端酒店专供茶饮，用匠心打破文化界限。"
+  },
+  "heroSlides": [
+    "https://images.pexels.com/photos/769967/pexels-photo-769967.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "https://images.pexels.com/photos/4109746/pexels-photo-4109746.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "朱槿红茶 · Hibiscus Black Tea",
+      "price": "$24.99",
+      "desc": "安徽祁红基底，融合非洲洛神花，果香浓郁，冷热皆宜。",
+      "img": "https://images.pexels.com/photos/1622378/pexels-photo-1622378.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "more": "采摘自黄山千米海拔茶园，搭配肯尼亚天然洛神花干，富含花青素。冰镇后加入少许蜂蜜，是非洲草原上的消暑圣品。荣获2024非洲茶博会创意风味奖。"
+    },
+    {
+      "id": "p2",
+      "name": "萨赫勒白茶",
+      "price": "$32.50",
+      "desc": "太一特制白茶，搭配撒哈拉薄荷，清爽回甘。",
+      "img": "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "more": "以福鼎白茶为底，加入撒哈拉沙漠绿洲野生薄荷，带有独特的凉意。每袋均附送手工编织的非洲棉茶滤，适合热泡或冷萃。深受北非游牧民族喜爱。"
+    },
+    {
+      "id": "p3",
+      "name": "猴魁·草原晨露",
+      "price": "$45.00",
+      "desc": "太平猴魁工艺，加入非洲蜜树茶元素，喉韵绵长。",
+      "img": "https://images.pexels.com/photos/1002778/pexels-photo-1002778.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "more": "太平猴魁非遗大师监制，融入南非蜜树茶（Honeybush）天然甜味，无需加糖即有蜜香。包装采用非洲蜡染布料，限量发售。是高端礼品市场爆款。"
+    }
+  ],
+  "cases": [
+    {
+      "id": "c1",
+      "title": "内罗毕茶空间联名",
+      "desc": "与肯尼亚本土艺术馆合作，推出「东非茶席」体验季，每月吸引上千茶友参与。",
+      "img": "https://images.pexels.com/photos/3184319/pexels-photo-3184319.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "more": "在肯尼亚国家博物馆举办为期三个月的茶席艺术展，邀请中非艺术家驻留创作。同时建立太一茶学院内罗毕分校，已培训200余名本土茶艺师。"
+    },
+    {
+      "id": "c2",
+      "title": "拉各斯茶文化节",
+      "desc": "太一助力非洲首届国际茶文化节，将中国茶道表演带入尼日利亚市场。",
+      "img": "https://images.pexels.com/photos/6941868/pexels-photo-6941868.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "more": "与尼日利亚文旅部合办，参与人数超过5万人，茶文化节期间太一茶品成为最受欢迎的展位。成功签约西非地区总代理。"
+    },
+    {
+      "id": "c3",
+      "title": "沙漠绿洲茶计划",
+      "desc": "与撒哈拉绿洲社区合作，以茶为媒推动妇女就业与文化交流。",
+      "img": "https://images.pexels.com/photos/6129047/pexels-photo-6129047.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "more": "在毛里塔尼亚绿洲建立妇女茶叶包装合作社，使用当地可再生材料。通过公平贸易方式，每售出一盒茶，捐赠部分收益给当地水源保护项目。"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg1",
+      "name": "内罗毕茶友",
+      "content": "第一次品尝朱槿红茶，酸甜口感让我想起家乡的芙蓉花饮！",
+      "date": "2026/5/30 09:00:00",
+      "likes": 5
+    },
+    {
+      "id": "msg2",
+      "name": "Lagos Tea Lover",
+      "content": "太一的茶包装融合了非洲编织图案，太有心意了。希望多出联名款。",
+      "date": "2026/5/30 09:05:00",
+      "likes": 3
+    }
+  ]
+}

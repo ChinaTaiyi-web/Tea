@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>安徽太一茶业 | 中非共融 · 茶和万象</title>
+    <meta name="description" content="安徽太一茶业以中国茶道连接非洲风土，呈现中非共融的茶品、工艺、文化故事与合作足迹。">
+    <meta name="theme-color" content="#2F6B5E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-weave">
+<header>
+    <div class="container navbar">
+        <div class="logo" data-i18n="logo">太一茶业<span> · Taiyi Tea</span></div>
+        <div class="nav-links">
+            <a href="#home" data-i18n="nav_home">首页</a><a href="#culture" data-i18n="nav_culture">文化共融</a><a href="#craft" data-i18n="nav_craft">匠心工艺</a><a href="#products" data-i18n="nav_products">茶品</a><a href="#cases" data-i18n="nav_cases">非洲足迹</a><a href="#forum" data-i18n="nav_forum">茶话论坛</a>
+        </div>
+        <div class="lang-switch" style="margin-left:16px;">
+            <select id="langSelect" aria-label="切换语言">
+                <option value="zh">中文</option>
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="ar">العربية</option>
+            </select>
+        </div>
+        <div id="adminStatusBadge"></div>
+    </div>
+</header>
+<main>
+    <section id="home" class="hero">
+        <div class="hero-bg-layer" id="heroBgA"></div>
+        <div class="hero-bg-layer" id="heroBgB"></div>
+        <div class="hero-controls">
+            <button id="heroPrev" class="hero-arrow left" aria-label="上一张">‹</button>
+            <div id="heroDots" class="hero-dots"></div>
+            <button id="heroNext" class="hero-arrow right" aria-label="下一张">›</button>
+        </div>
+        <div class="container hero-content"><h1 data-i18n="hero_title">茶脉连非亚 · 一盏天地宽</h1><p data-i18n="hero_desc">安徽太一茶业，将中国千年茶道与非洲大地的生命力交织，缔造具有部落灵魂的东方茶饮。</p><a href="#products" class="btn" data-i18n="hero_btn">探索太一典藏</a><button id="editHeroBtn" class="icon-btn hero-edit-btn" style="display:none; margin-top:20px;">✎ 编辑主图</button></div>
+    </section>
+    <section class="module-nav"><div class="container module-list"><a href="#culture" class="module-card" data-i18n="module_culture">文化共融</a><a href="#craft" class="module-card" data-i18n="module_craft">匠心工艺</a><a href="#products" class="module-card" data-i18n="module_products">茶品</a><a href="#cases" class="module-card" data-i18n="module_cases">非洲足迹</a><a href="#forum" class="module-card" data-i18n="module_forum">茶话论坛</a></div></section>
+    <section id="culture" class="culture-section"><div class="container"><div class="section-title" data-i18n="title_culture_section">鼓语茶香 · 文明和鸣</div><div class="culture-card"><div class="culture-text"><h3 id="cultureTitle" data-i18n="culture_title">跨洲灵感 共生之茶</h3><p id="cultureDesc" data-i18n-placeholder="culture_desc">太一将安徽黄山的云雾茶山与肯尼亚裂谷的炽热阳光融汇，创造出「朱槿红茶」「草原蜜韵」等跨界风味。致敬祖先智慧，拥抱非洲节奏，每一杯都是文化对话。</p><div><button class="detail-btn" id="cultureMoreBtn" data-i18n="culture_more_btn">📖 进入文化主页 · 了解更多</button><div id="cultureEditBtnPlace" style="display: inline-block; margin-left: 12px;"></div></div></div><div class="culture-img" id="cultureImg" style="background-image: url('https://images.pexels.com/photos/4109746/pexels-photo-4109746.jpeg?auto=compress&cs=tinysrgb&w=800');"></div></div></div></section>
+    <section id="craft" class="craft-section"><div class="container"><div class="section-title" data-i18n="title_craft_section">匠心 · 中非茶造物</div><div class="section-carousel-wrapper" id="craftCarouselWrapper"><div class="craft-carousel" id="craftCarousel"></div><div class="carousel-controls" id="craftCarouselControls"><button id="craftPrev" class="carousel-arrow left" aria-label="上一张">‹</button><div id="craftDots" class="carousel-dots"></div><button id="craftNext" class="carousel-arrow right" aria-label="下一张">›</button></div></div><div id="craftEditBtnPlace" style="margin-top: 24px;"></div></div></section>
+    <section id="products" class="products-section" style="padding: 60px 0; background: #fffaf3;"><div class="container"><div class="section-title" data-i18n="title_products_section">太一典藏 · 风味共融</div><div class="section-carousel-wrapper"><div class="product-carousel" id="productCarousel"></div><div class="carousel-controls" id="productCarouselControls"><button id="productPrev" class="carousel-arrow left" aria-label="上一张">‹</button><div id="productDots" class="carousel-dots"></div><button id="productNext" class="carousel-arrow right" aria-label="下一张">›</button></div></div><div id="adminProductBtnContainer" style="text-align: center; margin-top: 40px;"></div></div></section>
+    <section id="cases" class="cases-section"><div class="container"><div class="section-title" data-i18n="title_cases_section">大地足迹 · 合作伙伴</div><div class="section-carousel-wrapper"><div class="case-carousel" id="caseCarousel"></div><div class="carousel-controls" id="caseCarouselControls"><button id="casePrev" class="carousel-arrow left" aria-label="上一张">‹</button><div id="caseDots" class="carousel-dots"></div><button id="caseNext" class="carousel-arrow right" aria-label="下一张">›</button></div></div><div id="adminCasesBtnContainer" style="text-align: center; margin-top: 40px;"></div></div></section>
+    <section id="forum" class="forum-section"><div class="container"><div class="forum-container"><h3 style="font-size: 1.9rem; font-family: 'Cormorant Garamond'; margin-bottom: 20px;"><i class="fas fa-leaf"></i> <span data-i18n="forum_title">茶话论坛 · 共话中非茶缘</span></h3><div id="messageList" class="messages-list" style="max-height: 450px; overflow-y: auto;"></div><div class="forum-form" style="margin-top: 28px;"><input type="text" id="msgName" data-i18n-placeholder="msg_name_placeholder" placeholder="您的名字 / 或来自非洲的朋友" value="非洲茶友"><textarea id="msgContent" rows="2" data-i18n-placeholder="msg_content_placeholder" placeholder="分享品茶感受、文化见解或建议..."></textarea><button id="postMsgBtn" class="btn" data-i18n="post_msg_btn" style="background: var(--acacia-green);">发表茶话</button></div></div></div></section>
+</main>
+<div class="contact-bar"><div class="container"><div class="contact-info"><span><i class="fas fa-phone-alt"></i> <span data-i18n="contact_phone">客服热线: +86 0559-6688 太一茶业</span></span><span><i class="fas fa-envelope"></i> <span data-i18n="contact_email">官方邮箱: hello@taiyitea.com</span></span><span><i class="fas fa-map-marker-alt"></i> <span data-i18n="contact_addr">中国·安徽安庆</span></span></div></div></div>
+<footer><div class="container"><p data-i18n="footer_copyright">© 2026 安徽太一茶业 | 茶和天下 · 中非共融</p><p data-i18n="footer_tagline" style="font-size: 0.8rem; margin-top: 12px;">从东方茶园到非洲热土，致敬每一片风土</p></div><div class="secret-admin" id="secretAdminBtn"><i class="fas fa-key"></i> 管理通道</div></footer>
+<div id="globalModal" class="modal" role="dialog" aria-modal="true"><div class="modal-card" id="modalContent"></div></div>
+<noscript><div class="noscript-warning">请启用 JavaScript 以查看轮播、语言切换和留言功能。</div></noscript>
+
+<script src="script.js" defer></script>
+</body>
+</html>
